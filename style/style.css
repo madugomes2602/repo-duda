@@ -13,7 +13,7 @@ body {
     height: 100vh;
 
     /* Cria um gradiente de cores de cima para baixo como plano de fundo */
-    background: linear-gradient(to bottom, #1d2b53, #7e2553, #ff5555);
+    background: linear-gradient(to bottom, #1d2b53, #257e59, #a7ff55);
 
     /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
@@ -51,7 +51,7 @@ body {
 
 /* Define a cor do texto para elementos com a classe .titulo-destaque como d38b06 (laranja) */
 .titulo-destaque {
-    color: #d38b06;
+    color: #0ce717;
 }
 
 /* Estilos para elementos com a classe .conteudo */
@@ -310,15 +310,15 @@ body {
 /* inicio estilizaçãp ancora3(botao3) */
 
 .botao3 {
-    background-color: #000;
+    background-color: #0f0f0f;
     align-items: center;
-    color: #333; /* Cor padrão do GitHub */
+    color: #ff5e5e; /* Cor padrão do GitHub */
     width: 500px;   
     height: 80px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid #333;
+    border: 2px solid #e60d0d;
     border-radius: 50px;
     font-size: 24px;
     padding: 15px 0;
@@ -328,6 +328,7 @@ body {
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
+    margin-bottom: 20px;
 }
 
 .botao3::before {
@@ -460,10 +461,10 @@ body {
     max-width: 100%;
 
     /* Define a largura do elemento como 650px */
-    width: 650px;
+    width: 480px;
 
     /* Define a altura do elemento como 650px */
-    height: 650px;
+    height: 853px;
 
     /* Alinha o conteúdo ao centro horizontalmente */
     text-align: center;
@@ -564,8 +565,8 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
-    color: white;
-    background-color: #800000;
+    color: rgb(0, 0, 0);
+    background-color: #befdc8;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -578,7 +579,7 @@ body {
 
 /* Estilo de link no rodapé */
 .rodape a:hover {
-    color: #FFA500;
+    color: #ee43ee;
 }
 
 
